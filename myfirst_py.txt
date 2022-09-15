@@ -1,8 +1,0 @@
-from collections import defaulatdict
-str=input("Enter a String:")
-str=str.lower()
-chars=defaultdict(int)
-for char in str :
-	chars[char]++
-new chars =sorted(char.items(),key=Lambda d:d[1],reverse=True)
-print(new_chars)
