@@ -1,6 +1,0 @@
-str='X-DSPAM-Confidence: 0.8475'
-p=str.find(':')
-print(p)
-p1=str[place+1:len(str)]
-p2=float(p1)
-print(p2)
